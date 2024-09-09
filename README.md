@@ -15,4 +15,4 @@ BiocManager::install("BioNERO")
 4. Input the text files in the following website to produce hub genes that are found in at least one other hub gene list: https://bioinformatics.psb.ugent.be/webtools/Venn/
 5. Save the resulting Venn Diagram as an SVG and copy any common hub genes by saving them into a text file
 6. Input the common hub genes into the following website, change the symbol type to Ensembl ID, and press submit: https://toppgene.cchmc.org/enrichment.jsp
-7. Click on the Download All button in the Training Results section to download the final resulting disease and drug associations
+7. Click on the Download All button in the Training Results section to download the final resulting disease and drug associations: https://toppgene.cchmc.org/output.jsp?userdata_id=c3475669-eab7-4785-aeee-a3e271f71dd5&_formatting=SCI4&_limit=200 
