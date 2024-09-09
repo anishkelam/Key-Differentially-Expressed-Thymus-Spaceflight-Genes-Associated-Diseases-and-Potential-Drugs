@@ -1,4 +1,10 @@
 # Identification-of-Key-Differentially-Expressed-Thymus-Spaceflight-Genes-Using-Weighted-Gene-Co-expression-Network-Analysis-Associated-Diseases-and-Potential-Drugs
+Data:
+https://osdr.nasa.gov/bio/repo/data/studies/OSD-289
+https://osdr.nasa.gov/bio/repo/data/studies/OSD-421
+https://osdr.nasa.gov/bio/repo/data/studies/OSD-423
+https://osdr.nasa.gov/bio/repo/data/studies/OSD-457
+
 Methodology:
 1. Run the Python Notebooks in Google Collab ensuring that the methods notebook and metadata files are in the current working directory to produce the Filtered Thymus RNA-seq Normalized DEG Data
 2. In the R console run the two following lines of code:
