@@ -23,3 +23,6 @@ genes_list <- hubs$Gene
 
 # Export the extracted column to a plain text file, each item on a new line
 writeLines(genes_list, "289_Hub_Genes.txt")
+
+edges_filtered <- get_edge_list(net, filter = TRUE)
+plot_gcn(edgelist_gcn = edges_filtered, net, color_by = "module", hubs = hubs, show_labels = "none")
